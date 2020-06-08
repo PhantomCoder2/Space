@@ -1,0 +1,328 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Space Weights 🚀</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <div class="main">
+            <h1 class="text-center text-info mt-5 animated fadeIn delay-1s" style="font-family:myFirstFont;font-size:3.9rem;">Space Weight</h1>
+            <div class="text-center mt-3 weigh animated fadeInUp delay-2s">
+                <p class="text-success text-center mt-5" style="font-size:1.9em;font-family:monospace;">Check your weight on different planets,
+                     if your earth weight haunts you 😁</p>
+            </div>
+        </div>
+        <div class="input-group justify-content-center mt-5 animated fadeInUp delay-3s">
+            <input type="text" class="form-control font-weight-bold" id="userW" placeholder="Enter your weight 🏡">
+            <div class="input-group-append">
+                    <select class="custom-select" id="Select01">
+                        <option selected>Select Units</option>
+                        <option value="1">kg</option>
+                        <option value="2">lbs</option>
+                    </select>
+            </div>
+        </div>
+        <!--MERCURY-->
+        <div class="row row-cols-1 row-cols-md-3 mt-5 grids d-none">
+            <div class="col-md-4">
+                <div class="card text-white bg-dark " style="max-width:20rem;">
+                    <div class="card-header">
+                        <h5 class="card-title text-info text-center font-weight-bold" style="font-size:1.4em;">MERCURY</h5>
+                    </div>
+                    <div class="card-body text-center">
+                        <p class="card-text " style="font-family:monospace;font-size:1.7em;">You Weigh: 
+                        <span class="text-success font-weight-bold text-monospace mercuryW"></span></p>
+                        
+                        <a href="#Mercury" class="text-monospace text-decoration-none" data-toggle="collapse"
+                        aria-haspopup="false" aria-controls="collapseExample" role="button" 
+                        aria-expanded="false">More <span class="fas fa-angle-down"></span></a>
+                    </div>
+                </div>
+                <div class="collapse" id="Mercury">
+                    <div class="card card-body bg-dark" style="max-width:20rem;line-height: 1.5rem;">
+                        <p class="class-text text-monospace text-light">Gravity Pull:
+                            <span class="text-warning font-weight-bold">3.70m/s<sup>2</sup></span>
+                        <br>
+                        1 Day: <span class="text-warning font-weight bold">~1,408 Earth hours</span><br>
+                        Temp Range:<span class="text-warning font-weight-bold">-184&#176;C to
+                            427&#176;C</span>
+                        <br>
+                        Distance to Earth:<span class="text-warning font-weight-bold">114.9 M
+                            km</span>
+                        <br>
+                        Space Missions:<span class="text-warning font-weight-bold">3</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        <!--VENUS-->
+            <div class="col mb-4">
+                <div class="card text-white bg-dark " style="max-width:20rem;">
+                    <div class="card-header">
+                        <h5 class="card-title text-info text-center font-weight-bold" style="font-size:1.4em;">VENUS</h5>
+                    </div>
+                    <div class="card-body text-center">
+                        <p class="card-text " style="font-family:monospace;font-size:1.7em;">You Weigh: 
+                        <span class="text-success font-weight-bold text-monospace venusW"></span></p>
+                        
+                        <a href="#Venus" class="text-monospace text-decoration-none" data-toggle="collapse"
+                        aria-haspopup="false" aria-controls="collapseExample" role="button" 
+                        aria-expanded="false">More <span class="fas fa-angle-down"></span></a>
+                    </div>
+                </div>
+                <div class="collapse" id="Venus">
+                    <div class="card card-body bg-dark" style="max-width:20rem;line-height: 1.5rem;">
+                        <p class="class-text text-monospace text-light">Gravity Pull:
+                            <span class="text-warning font-weight-bold">8.87m/s<sup>2</sup></span>
+                        <br>
+                        1 Day: <span class="text-warning font-weight bold">~5,832 Earth hours</span><br>
+                        Temp Range:<span class="text-warning font-weight-bold">-173&#176;C
+                            to 467&#176;C</span>
+                        <br>
+                        Distance to Earth:<span class="text-warning font-weight-bold">43.5
+                            M km</span>
+                        <br>
+                        Space Missions:<span class="text-warning font-weight-bold">25</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!--MOON-->
+            <div class="col mb-4">
+                <div class="card text-white bg-dark " style="max-width:20rem;">
+                    <div class="card-header">
+                        <h5 class="card-title text-info text-center font-weight-bold" style="font-size:1.4em;">MOON</h5>
+                    </div>
+                    <div class="card-body text-center">
+                        <p class="card-text " style="font-family:monospace;font-size:1.7em;">You Weigh: 
+                        <span class="text-success font-weight-bold text-monospace moonW"></span></p>
+                        
+                        <a href="#Moon" class="text-monospace text-decoration-none" data-toggle="collapse"
+                        aria-haspopup="false" aria-controls="collapseExample" role="button" 
+                        aria-expanded="false">More <span class="fas fa-angle-down"></span></a>
+                    </div>
+                </div>
+                <div class="collapse" id="Moon">
+                    <div class="card card-body bg-dark" style="max-width:20rem;line-height: 1.5rem;">
+                        <p class="class-text text-monospace text-light">Gravity Pull:
+                            <span class="text-warning font-weight-bold">1.62m/s<sup>2</sup></span>
+                        <br>
+                        1 Day: <span class="text-warning font-weight bold">655.72 Earth hours</span><br>
+                        Temp Range:<span class="text-warning font-weight-bold">-173&#176;C
+                            to 127&#176;C</span>
+                        <br>
+                        Distance to Earth:<span class="text-warning font-weight-bold">344,400 km</span>
+                        <br>
+                        Space Missions:<span class="text-warning font-weight-bold">77</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!--MARS-->
+            <div class="col mb-4">
+                <div class="card text-white bg-dark " style="max-width:20rem;">
+                    <div class="card-header">
+                        <h5 class="card-title text-success text-center font-weight-bold" style="font-size:1.4em;">MARS</h5>
+                    </div>
+                    <div class="card-body text-center">
+                        <p class="card-text " style="font-family:monospace;font-size:1.7em;">You Weigh: 
+                        <span class="text-success font-weight-bold text-monospace marsW"></span></Weigh:span></p>
+                        
+                        <a href="#Mars" class="text-monospace text-decoration-none" data-toggle="collapse"
+                        aria-haspopup="false" aria-controls="collapseExample" role="button" 
+                        aria-expanded="false">More <span class="fas fa-angle-down"></span></a>
+                    </div>
+                </div>
+                <div class="collapse" id="Mars">
+                    <div class="card card-body bg-dark" style="max-width:20rem;line-height: 1.5rem;">
+                        <p class="class-text text-monospace text-light">Gravity Pull:
+                            <span class="text-warning font-weight-bold">3.711m/s<sup>2</sup></span>
+                        <br>
+                        1 Day: <span class="text-warning font-weight bold">24.37 Earth hours</span><br>
+                        Temp Range:<span class="text-warning font-weight-bold">-125&#176;C
+                            to 20&#176;C</span>
+                        <br>
+                        Distance to Earth:<span class="text-warning font-weight-bold">205 M km</span>
+                        <br>
+                        Space Missions:<span class="text-warning font-weight-bold">28</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!--JUPITER-->
+            <div class="col mb-4">
+                <div class="card text-white bg-dark " style="max-width:20rem;">
+                    <div class="card-header">
+                        <h5 class="card-title text-success text-center font-weight-bold" style="font-size:1.4em;">JUPITER</h5>
+                    </div>
+                    <div class="card-body text-center">
+                        <p class="card-text " style="font-family:monospace;font-size:1.7em;">You Weigh: 
+                        <span class="text-success font-weight-bold text-monospace jupiterW"></span></p>
+                        
+                        <a href="#Jupiter" class="text-monospace text-decoration-none" data-toggle="collapse"
+                        aria-haspopup="false" aria-controls="collapseExample" role="button" 
+                        aria-expanded="false">More <span class="fas fa-angle-down"></span></a>
+                    </div>
+                </div>
+                <div class="collapse" id="Jupiter">
+                    <div class="card card-body bg-dark" style="max-width:20rem;line-height: 1.5rem;">
+                        <p class="class-text text-monospace text-light">Gravity Pull:
+                            <span class="text-warning font-weight-bold">24.79m/s<sup>2</sup></span>
+                        <br>
+                        1 Day: <span class="text-warning font-weight bold">10 Earth hours</span><br>
+                        Temp Range:<span class="text-warning font-weight-bold">-173&#176;C
+                            to 427&#176;C</span>
+                        <br>
+                        Distance to Earth:<span class="text-warning font-weight-bold">768 M km</span>
+                        <br>
+                        Space Missions:<span class="text-warning font-weight-bold">6</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!--SATURN-->
+            <div class="col mb-4 ">
+                <div class="card text-white bg-dark " style="max-width:20rem;">
+                    <div class="card-header">
+                        <h5 class="card-title text-success text-center font-weight-bold" style="font-size:1.4em;">SATURN</h5>
+                    </div>
+                    <div class="card-body text-center">
+                        <p class="card-text " style="font-family:monospace;font-size:1.7em;">You Weigh: 
+                        <span class="text-success font-weight-bold text-monospace saturnW"></span></p>
+                        
+                        <a href="#Saturn" class="text-monospace text-decoration-none" data-toggle="collapse"
+                        aria-haspopup="false" aria-controls="collapseExample" role="button" 
+                        aria-expanded="false">More <span class="fas fa-angle-down"></span></a>
+                    </div>
+                </div>
+                <div class="collapse" id="Saturn">
+                    <div class="card card-body bg-dark" style="max-width:20rem;line-height: 1.5rem;">
+                        <p class="class-text text-monospace text-light">Gravity Pull:
+                            <span class="text-warning font-weight-bold">10.44m/s<sup>2</sup></span>
+                        <br>
+                        1 Day: <span class="text-warning font-weight bold">11 Earth hours</span><br>
+                        Temp Range:<span class="text-warning font-weight-bold">-185&#176;C
+                            to -122&#176;C</span>
+                        <br>
+                        Distance to Earth:<span class="text-warning font-weight-bold">1.5 B km</span>
+                        <br>
+                        Space Missions:<span class="text-warning font-weight-bold">5</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!--URANUS-->
+            <div class="col mb-4 ">
+                <div class="card text-white bg-dark " style="max-width:20rem;">
+                    <div class="card-header">
+                        <h5 class="card-title text-warning text-center font-weight-bold" style="font-size:1.4em;">URANUS</h5>
+                    </div>
+                    <div class="card-body text-center">
+                        <p class="card-text " style="font-family:monospace;font-size:1.7em;">You Weigh: 
+                        <span class="text-success font-weight-bold text-monospace uranusW"></span></p>
+                        
+                        <a href="#Uranus" class="text-monospace text-decoration-none" data-toggle="collapse"
+                        aria-haspopup="false" aria-controls="collapseExample" role="button" 
+                        aria-expanded="false">More <span class="fas fa-angle-down"></span></a>
+                    </div>
+                </div>
+                <div class="collapse" id="Uranus">
+                    <div class="card card-body bg-dark" style="max-width:20rem;line-height: 1.5rem;">
+                        <p class="class-text text-monospace text-light">Gravity Pull:
+                            <span class="text-warning font-weight-bold">8.87m/s<sup>2</sup></span>
+                        <br>
+                        1 Day: <span class="text-warning font-weight bold">17 Earth hours</span><br>
+                        Temp Range:<span class="text-warning font-weight-bold">-218&#176;C
+                            to -153&#176;C</span>
+                        <br>
+                        Distance to Earth:<span class="text-warning font-weight-bold">3.1 B km</span>
+                        <br>
+                        Space Missions:<span class="text-warning font-weight-bold">1</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!--NEPTUNE-->
+            <div class="col mb-4 ">
+                <div class="card text-white bg-dark " style="max-width:20rem;">
+                    <div class="card-header">
+                        <h5 class="card-title text-warning text-center font-weight-bold" style="font-size:1.4em;">NEPTUNE</h5>
+                    </div>
+                    <div class="card-body text-center">
+                        <p class="card-text " style="font-family:monospace;font-size:1.7em;">You Weigh: 
+                        <span class="text-success font-weight-bold text-monospace neptuneW"></span></p>
+                        
+                        <a href="#Neptune" class="text-monospace text-decoration-none" data-toggle="collapse"
+                        aria-haspopup="false" aria-controls="collapseExample" role="button" 
+                        aria-expanded="false">More <span class="fas fa-angle-down"></span></a>
+                    </div>
+                </div>
+                <div class="collapse" id="Neptune">
+                    <div class="card card-body bg-dark" style="max-width:20rem;line-height: 1.5rem;">
+                        <p class="class-text text-monospace text-light">Gravity Pull:
+                            <span class="text-warning font-weight-bold">11.15m/s<sup>2</sup></span>
+                        <br>
+                        1 Day: <span class="text-warning font-weight bold">16 Earth hours</span><br>
+                        Temp Range:<span class="text-warning font-weight-bold">-218&#176;C
+                            to -200&#176;C</span>
+                        <br>
+                        Distance to Earth:<span class="text-warning font-weight-bold">4.6 B km</span>
+                        <br>
+                        Space Missions:<span class="text-warning font-weight-bold">1</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!--PLUTO-->
+            <div class="col mb-4">
+                <div class="card text-white bg-dark " style="max-width:20rem;">
+                    <div class="card-header">
+                        <h5 class="card-title text-warning text-center font-weight-bold" style="font-size:1.4em;">PLUTO</h5>
+                    </div>
+                    <div class="card-body text-center">
+                        <p class="card-text " style="font-family:monospace;font-size:1.7em;">You Weigh: 
+                        <span class="text-success font-weight-bold text-monospace plutoW"></span></p>
+                        
+                        <a href="#Pluto" class="text-monospace text-decoration-none" data-toggle="collapse"
+                        aria-haspopup="false" aria-controls="collapseExample" role="button" 
+                        aria-expanded="false">More <span class="fas fa-angle-down"></span></a>
+                    </div>
+                </div>
+                <div class="collapse" id="Pluto">
+                    <div class="card card-body bg-dark" style="max-width:20rem;line-height: 1.5rem;">
+                        <p class="class-text text-monospace text-light">Gravity Pull:
+                            <span class="text-warning font-weight-bold">0.62/s<sup>2</sup></span>
+                        <br>
+                        1 Day: <span class="text-warning font-weight bold">153 Earth hours</span><br>
+                        Temp Range:<span class="text-warning font-weight-bold">-233&#176;C
+                            to -223&#176;C</span>
+                        <br>
+                        Distance to Earth:<span class="text-warning font-weight-bold">77.3 M km</span>
+                        <br>
+                        Space Missions:<span class="text-warning font-weight-bold">1</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="https://kit.fontawesome.com/0de963d6c4.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="scripts/script.js"></script>
+</body>
+</html>
